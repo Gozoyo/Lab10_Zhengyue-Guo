@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Me</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+
+<body>
+    <header id="main-header">
+        <h1>Welcome to My Page</h1>
+    </header>
+
+    <main>
+
+        
+        <section>
+            <h2>Ways to Contact Me</h2>
+            <table class="contact-table">
+                <tr>
+                    <th>Contact Method</th>
+                    <th>Details</th>
+                </tr>
+                <tr>
+                    <td>WeChat</td>
+                    <td>My WeChat ID: Leon_GuoZhengYue</td>
+                </tr>
+                <tr>
+                    <td>School Email</td>
+                    <td><a href="mailto:zg131@duke.edu" target="_blank">My Email</a></td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <h2>Leave a Message Here</h2> 
+            <form action="#" method="GET">
+                <div class="form-field">
+                    <label for="fname">First Name:</label>
+                    <input type="text" id="fname" name="fname" placeholder="Enter your first name..." required>
+                </div>
+
+                <div class="form-field">
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname" name="lname" placeholder="Enter your last name..." required>
+                </div>
+
+                <div class="form-field">
+                    <label for="psw">Password:</label>
+                    <input type="password" id="psw" name="psw" placeholder="Enter your password" maxlength="10" required>
+                </div>
+
+                <div class="form-field">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-field">
+                    <label for="phone">Phone No.:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Enter your phone number...">
+                </div>
+
+                <div class="form-field">
+                    <label for="bdate">Birthday:</label>
+                    <input type="date" id="bdate" name="bdate">
+                </div>
+
+                <div class="form-field">
+                    <label>Title:</label>
+                    <label><input type="radio" name="title" value="Mr."> Mr.</label>
+                    <label><input type="radio" name="title" value="Ms"> Ms</label>
+                    <label><input type="radio" name="title" value="Mrs"> Mrs</label>
+                    <label><input type="radio" name="title" value="Dr."> Dr.</label>
+                </div>
+
+                <div class="form-field">
+                    <label for="message">Your Question:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+
+                <div class="form-buttons">
+                    <input type="reset" value="Reset">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </section>
+
+        <a href="index.html" title="Projects Homepage">
+            <button class="homepage_button">Go to Projects' Homepage</button>
+        </a>
+    </main>
+
+    <footer id="main-footer">
+        <p>&copy; 2024 Zhengyue Guo. All rights reserved.</p>
+    </footer>
+</body>
+</html>

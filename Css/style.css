@@ -1,0 +1,264 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+#main-header {
+    width: 100%;
+    padding: 2%;
+    text-align: center;
+    background-color: #2c3e50;
+    color: white;
+    font-size: 2em;
+    margin-bottom: 2%;
+}
+
+.journey-content {
+    background-color: #ecf0f1;
+    padding: 2%;
+    border-radius: 1%;
+    margin-bottom: 2%;
+    border: 1px solid #bdc3c7;
+}
+
+.highlight {
+    font-weight: bold;
+    color: #2c3e50;
+    margin-top: 1.5%;
+}
+
+main {
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+}
+
+.contact-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2% auto;
+}
+
+.contact-table th, .contact-table td {
+    border: 1px solid #ddd;
+    padding: 2%;
+    text-align: left;
+}
+
+.contact-table th {
+    background-color: #009688;
+    color: white;
+    font-weight: bold;
+}
+
+.contact-table td a {
+    color: #009688;
+    text-decoration: none;
+}
+
+/* Form Styles */
+.form-field {
+    margin-bottom: 2%;
+    text-align: left;
+}
+
+label {
+    display: inline-block;
+    width: 15%;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="tel"], input[type="date"], textarea {
+    width: calc(100% - 130px);
+    padding: 1%;
+    border: 1px solid #ccc;
+    border-radius: 1%;
+}
+
+.form-buttons input {
+    width: fit-content;
+    margin: 1%;
+    padding: 1% 2%;
+    font-size: 1em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button Styles */
+.homepage_button {
+    display: block;
+    width: fit-content;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 1.5% 2.5%;
+    margin:10% auto;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 1%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.homepage_button:hover {
+    background-color: #2980b9;
+}
+
+#main-footer {
+    width: 100%;
+    text-align: center;
+    padding: 1%;
+    background-color: #2c3e50;
+    color: white;
+    position: fixed;
+    bottom: 0;
+}
+
+.container {/* checked from w3school*/
+    display: flex;
+    justify-content: center;  /* Centers the items horizontally */
+    align-items: center;      /* Centers items vertically within the container */
+    width: 90%;
+    max-width: 1000px;
+    padding: 2%;
+    background-color: white;
+    border: 2px solid gainsboro;
+    border-radius: 1%;
+    margin-bottom: 2%;
+}
+
+
+.image-space {
+    flex: 1.2; /* Makes the image section larger */
+    float: left;
+    display: flex;
+    opacity: 90%;
+    justify-content: center;
+}
+.image-space img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 1%;
+}
+
+
+.text-space {
+    flex: 1;
+    max-width: 600px;
+    text-align: center;
+    margin-left: 2%;
+}
+/* Button Section Styling */
+#button-section {
+    text-align: center;
+    margin: 2% 0;
+}
+
+/* Button Styling */
+.link-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 1.5% 3%;
+    margin: 1%;
+    cursor: pointer;
+    font-size: 2em;
+    font-weight: bold;
+    border-radius: 1%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.link-button:hover {
+    background-color: #45a049;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+}
+/* Nav Bar Styles */
+.navbar {
+    display: flex;  
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 40px; /* Add padding around the navbar */
+    background-color: #333;
+    max-width: 1200px; 
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.nav-link:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Dropdown Menu Styles */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-btn {
+    background-color: #333;
+    color:wheat;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: large;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+    border-radius: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+@media (max-width: 480px) {
+    #main-header {
+        font-size: 6vw; /* Further reduces font size for mobile */
+        padding: 5%; /* Increase padding to maintain space around text */
+        margin-bottom: 4%; /* Increase bottom margin for smaller screens */
+    }
+}
